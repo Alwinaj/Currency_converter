@@ -5,11 +5,11 @@ A Spring Boot application that integrates with a public API to deliver real-time
 
 ## Features
 
-Fetch real-time exchange rates for the specified base currency.
+- Fetch real-time exchange rates for the specified base currency.
 
-Convert an amount between two currencies using the fetched exchange rates.
+- Convert an amount between two currencies using the fetched exchange rates.
 
-RESTful API endpoints.
+- RESTful API endpoints.
 
 
 ## Technologies Used
@@ -25,15 +25,15 @@ IDE (Preferred: Eclipse)
 
 ## Installation
 
- -Clone the Repository
+ - Clone the Repository
 
-git clone https://github.com/<your-username>/currency-converter.git
+```git clone https://github.com/<your-username>/currency-converter.git```
 
- -Navigate to the Project Folder
+ - Navigate to the Project Folder
 
 cd currency-converter
 
--Checkout the Master Branch
+- Checkout the Master Branch
 
 git checkout master
 
@@ -51,15 +51,15 @@ git checkout master
 
 ## Building the Project
 
-mvn clean package -Dcurrency.api.key=<your-api-key>
+```mvn clean package -Dcurrency.api.key=<your-api-key>```
 
 
 ## Running the Application
 
-java -jar -Dcurrency.api.key=<your-api-key> target/currencyconverter-0.0.1-SNAPSHOT.jar
+```java -jar -Dcurrency.api.key=<your-api-key> target/currencyconverter-0.0.1-SNAPSHOT.jar```
 
 
 ## Accessing the Application
 
 Exchange Rates API:
-http://localhost:8080/api/rates?base=USD
+```http://localhost:8080/api/rates?base=USD```
