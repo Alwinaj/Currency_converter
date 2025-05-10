@@ -1,4 +1,4 @@
-#Currency Converter
+Currency Converter
 
 A Spring Boot application that integrates with a public API to deliver real-time currency conversion.
 
