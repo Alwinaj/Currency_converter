@@ -1,9 +1,9 @@
-Currency Converter
+# Currency Converter
 
 A Spring Boot application that integrates with a public API to deliver real-time currency conversion.
 
 
-##Features
+## Features
 
 Fetch real-time exchange rates for the specified base currency.
 
@@ -12,7 +12,7 @@ Convert an amount between two currencies using the fetched exchange rates.
 RESTful API endpoints.
 
 
-##Technologies Used
+## Technologies Used
 
 Java 17
 
@@ -23,7 +23,7 @@ Maven
 IDE (Preferred: Eclipse)
 
 
-##Installation
+## Installation
 
  -Clone the Repository
 
@@ -38,28 +38,28 @@ cd currency-converter
 git checkout master
 
 
-##Configuring Your API Key
+## Configuring Your API Key
 
--Sign up at Open Exchange Rates.
-
-
--Generate a free API key.
+- Sign up at Open Exchange Rates.
 
 
--Use this key when building and running the application as shown below.
+- Generate a free API key.
 
 
-##Building the Project
+- Use this key when building and running the application as shown below.
+
+
+## Building the Project
 
 mvn clean package -Dcurrency.api.key=<your-api-key>
 
 
-##Running the Application
+## Running the Application
 
 java -jar -Dcurrency.api.key=<your-api-key> target/currencyconverter-0.0.1-SNAPSHOT.jar
 
 
-##Accessing the Application
+## Accessing the Application
 
 Exchange Rates API:
 http://localhost:8080/api/rates?base=USD
