@@ -31,11 +31,11 @@ IDE (Preferred: Eclipse)
 
  - Navigate to the Project Folder
 
-cd currency-converter
+```cd currency-converter```
 
 - Checkout the Master Branch
 
-git checkout master
+```git checkout master```
 
 
 ## Configuring Your API Key
